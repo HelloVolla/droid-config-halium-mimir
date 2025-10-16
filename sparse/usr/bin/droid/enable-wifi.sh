@@ -10,15 +10,13 @@ while [ "$(getprop vendor.service.nvram_init)" != "Ready" ]; do sleep 0.2; done
 
 # Load device-specific connectivity kernel modules starting with WLAN
 modprobe wmt_chrdev_wifi
-modprobe wlan_drv_gen4m
+modprobe wlan_drv_gen4m_6789
 
 # Silence all wlan debug logging down to just errors/warnings
 printf '0xFF:0x03' > /proc/net/wlan/dbgLevel
 
 # Load other connectivity kernel modules as well now
-modprobe bt_drv_6877
-modprobe gps_drv
-modprobe fmradio_drv_connac2x
+modprobe fmradio_drv_mt6631_6635
 
 # Wait for nvram yet again..
 while [ "$(getprop vendor.mtk.nvram.ready)" != "1" ]; do sleep 0.2; done
