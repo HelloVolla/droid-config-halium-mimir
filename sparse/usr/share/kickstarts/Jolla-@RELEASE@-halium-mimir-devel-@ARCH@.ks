@@ -27,6 +27,7 @@ patterns-sailfish-device-configuration-halium-mimir
 %attachment
 #Copy some files out of the image for the user to flash
 /boot/boot.img
+/boot/vendor_boot.img
 /boot/dtbo.img
 /etc/hw-release
 droid-config-halium-mimir-out-of-image-files
