@@ -1,4 +1,4 @@
-CPUCHECK_STRING="MT6877V/TTZA"
+CPUCHECK_STRING="MT8781V/CA"
 
 # Because of flash-partition checks, 1 needs to be defined
 # Others can go with partition numbers
