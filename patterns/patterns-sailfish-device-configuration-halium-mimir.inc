@@ -4,7 +4,6 @@ Summary: Sailfish HW Adaptation halium-mimir
 Requires: patterns-sailfish-device-configuration-common-halium-mimir
 Requires: patterns-sailfish-device-adaptation-halium-mimir
 
-Requires: patterns-sailfish-cellular-apps
 Requires: patterns-sailfish-applications
 Requires: patterns-sailfish-ui
 
