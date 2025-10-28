@@ -7,6 +7,9 @@ Requires: patterns-sailfish-device-adaptation-halium-mimir
 Requires: patterns-sailfish-applications
 Requires: patterns-sailfish-ui
 
+Requires: jolla-settings-networking-cellular
+Requires: simkit
+
 # jolla-rnd-device will enable usb-moded even when UI is not yet
 # brought up (useful during development, available since update10)
 Requires: jolla-rnd-device
