@@ -35,11 +35,6 @@ Requires: ofono-binder-plugin
 Requires: ofono-binder-plugin-ext-mtk
 Requires: dummy_netd
 
-# NFC
-Requires: nfcd-binder-plugin
-Requires: nfcd-mce-plugin
-Requires: libgbinder-tools
-
 # Vibra
 Requires: ngfd-plugin-droid-vibrator
 Requires: libngf-qt5-qtfeedback

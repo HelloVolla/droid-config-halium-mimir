@@ -16,9 +16,6 @@ Requires: jolla-rnd-device
 
 Requires: sailfish-content-graphics-z1.0
 
-# For NFC
-Requires: jolla-settings-system-nfc
-
 # For flashlight control
 Requires: jolla-settings-system-flashlight
 
