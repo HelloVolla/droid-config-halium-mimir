@@ -42,6 +42,7 @@ Requires: mapplauncherd-booster-silica-qt5-media
 
 #WLAN
 Requires: sailfish-connman-plugin-tethering-wmtwifi
+Requires: sailfish-connman-plugin-suspend
 
 #Debug tools
 Recommends: vi
