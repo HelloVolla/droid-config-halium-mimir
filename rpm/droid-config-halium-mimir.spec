@@ -5,7 +5,7 @@
 %define vendor volla
 
 %define vendor_pretty Volla
-%define device_pretty Tablet
+%define device_pretty Volla Tablet
 
 # Community HW adaptations need this
 %define community_adaptation 1
