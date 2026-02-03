@@ -33,12 +33,19 @@ handle_error()
 
 #Flash kernel and init
 fastboot flash boot_a boot.img || handle_error flash boot_a error
+fastboot flash boot_b boot.img || handle_error flash boot_b error
 
 #Flash vendor_boot
 fastboot flash vendor_boot_a vendor_boot.img || handle_error flash vendor_boot_a error
+fastboot flash vendor_boot_b vendor_boot.img || handle_error flash vendor_boot_b error
 
 #Flash DTBO
-fastboot flash dtbo dtbo.img || handle_error flash DTBO error
+fastboot flash dtbo_a dtbo.img || handle_error flash dtbo_a error
+fastboot flash dtbo_b dtbo.img || handle_error flash dtbo_b error
+
+#Flash known good lk
+fastboot flash lk_a lk.img || handle_error flash lk_a error
+fastboot flash lk_b lk.img || handle_error flash lk_b error
 
 #Flash super
 fastboot flash super super.img || handle_error flash super error
