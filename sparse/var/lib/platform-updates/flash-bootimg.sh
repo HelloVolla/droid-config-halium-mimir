@@ -9,5 +9,5 @@
 /usr/sbin/flash-partition vendor_boot_a /boot/vendor_boot.img
 /usr/sbin/flash-partition vendor_boot_b /boot/vendor_boot.img
 
-/usr/sbin/flash-partition lk_a lk.img
-/usr/sbin/flash-partition lk_b lk.img
+/usr/sbin/flash-partition lk_a /boot/lk.img
+/usr/sbin/flash-partition lk_b /boot/lk.img
