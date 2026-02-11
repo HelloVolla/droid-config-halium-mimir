@@ -8,6 +8,7 @@ Requires: droid-config-halium-mimir-policy-settings
 Requires: droid-config-halium-mimir-preinit-plugin
 Requires: droid-config-halium-mimir-flashing
 Requires: droid-config-halium-mimir-bluez5
+Requires: droid-config-halium-mimir-out-of-image-files
 Requires: droid-hal-vendor-img-halium-mimir
 Requires: droid-hal-version-halium-mimir
 
