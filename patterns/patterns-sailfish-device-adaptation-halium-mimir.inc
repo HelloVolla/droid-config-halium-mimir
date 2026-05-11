@@ -37,7 +37,6 @@ Requires: ofono-binder-plugin-ext-mtk
 Requires: dummy_netd
 
 # Vibra
-Requires: ngfd-plugin-droid-vibrator
 Requires: libngf-qt5-qtfeedback
 
 # Sensors
@@ -86,9 +85,6 @@ Requires: sailfish-device-encryption-community-droid
 
 # For GPS
 Requires: geoclue-provider-hybris
-
-# For mounting SD card automatically
-Requires: sd-utils
 
 %description -n patterns-sailfish-device-adaptation-halium-mimir
 Pattern with packages for halium-mimir HW Adaptation
